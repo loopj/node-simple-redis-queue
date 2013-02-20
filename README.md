@@ -17,7 +17,7 @@ RedisQueue = require("simple-redis-queue");
 myQueue = new RedisQueue(redisCon);
 
 // Publish to the queue
-myQueue.publish("queueName", "body string or object");
+myQueue.push("queueName", "body string or object");
 
 // Listen for new messages
 myQueue.on("message", function (queueName, payload) {
