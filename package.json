@@ -1,0 +1,23 @@
+{
+  "name": "simple-redis-queue",
+  "version": "0.9.0",
+  "description": "A simple redis queue using lpush and brpop",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/loopj/node-simple-redis-queue"
+  },
+  "author": {
+    "name": "James Smith",
+    "email": "james@loopj.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.4.0",
+    "grunt-bumpx": "~0.1.0"
+  }
+}
