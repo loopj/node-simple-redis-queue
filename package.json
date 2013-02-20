@@ -1,6 +1,6 @@
 {
   "name": "simple-redis-queue",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A simple redis queue using lpush and brpop",
   "main": "lib/index.js",
   "repository": {
