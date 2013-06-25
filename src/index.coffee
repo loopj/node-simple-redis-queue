@@ -14,7 +14,7 @@ class RedisQueue extends events.EventEmitter
         return @emit("error", err) if err?
         return @emit("error", new RedisQueueError("Bad number of replies from redis #{replies.length}")) if replies.length != 2
 
-        @emit "message", replies[0], JSON.parse(replies[1])
+        @emit "message", replies[0], replies[1]
       finally
         @monitor(keysToMonitor...)
 
