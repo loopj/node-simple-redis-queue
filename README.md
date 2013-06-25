@@ -2,8 +2,7 @@ Simple Redis Queue for Node.js
 ==============================
 
 Super simple wrapper for redis `lpush` and `brpop` commands for basic queue
-processing, with automatic JSON encoding/decoding of payloads and multiple
-queue support.
+processing and multiple queue support.
 
 
 Usage
